@@ -43,7 +43,7 @@ export class EmailComponent implements OnInit {
       error=>{
         console.log(error);
         this.spinFlagRunning=false;
-        this.snack.open("Mail Sent ! ","OK");
+        this.snack.open("Mail Not Sent ! ","OK");
       }
     );
   }
